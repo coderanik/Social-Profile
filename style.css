@@ -1,6 +1,8 @@
+
 body{
     background-color: black;
 }
+
 .box{
     background-color:hsl(0, 0%, 8%) ;
     width: 300px;
@@ -16,33 +18,23 @@ body{
     align-items: center;
     transform: translate(-50%,-50%);
 }
+
 img{
-    width: 45%;
+    width: 40%;
     border-radius: 100px;
 }
 
-/** Link Modifiaction **/
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a:hover{
-    color:black;
-}
-
 /** Styling for Buttons **/
+
 .buttons{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 12px;
-    width: 250px;
-    
-    
+    width: 230px;
 }
-.button1{
+.button{
     background-color:hsl(0, 0%, 12%) ;
     border-radius: 25px;
     font-size: 15px;
@@ -54,80 +46,19 @@ a:hover{
     font-style: normal;
     height: 40px;
     text-align: center;
+    width: 225px;
 }
-.button1:hover {
+.button:hover {
     background-color: #EBBD00;
     color: #0E0800;
     
 }
-.button2{
-    background-color:hsl(0, 0%, 12%) ;
-    border-radius: 25px;
-    font-size: 15px;
-    color: white;
-    margin: 5px;
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 526;
-    font-style: normal;
-    height: 40px;
-}
-.button2:hover {
-    background-color: #EBBD00;
-    color: #0E0800;
-}
-.button3{
-    background-color:hsl(0, 0%, 12%) ;
-    border-radius: 25px;
-    font-size: 15px;
-    color: white;
-    margin: 5px;
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 526;
-    font-style: normal;
-    height: 40px;
-}
-.button3:hover {
-    background-color: #EBBD00;
-    color: #0E0800;
-}
-.button4{
-    background-color:hsl(0, 0%, 12%) ;
-    border-radius: 25px;
-    font-size: 15px;
-    color: white;
-    margin: 5px;
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 526;
-    font-style: normal;
-    height: 40px;
-}
-.button4:hover {
-    background-color: #EBBD00;
-    color: #0E0800;
-}
-.button5{
-    background-color:hsl(0, 0%, 12%) ;
-    border-radius: 25px;
-    font-size: 15px;
-    color: white;
-    margin: 5px;
-    font-family: "Exo 2", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 526;
-    font-style: normal;
-    height: 40px;
-    text-align: center;
-}
-.button5:hover {
-    background-color: #EBBD00;
-    color: #0E0800;
+.button:active{
+    background-color:rgb(255, 208, 0);
+    color:black;
 }
 
 /** Styling For Text **/
-
 
 h2{
     font-family: "Ubuntu", sans-serif;
@@ -154,6 +85,8 @@ p{
     color:hsl(0, 3%, 46%) ;
     font-size: 12px;
 }
+
+
 
 
 
