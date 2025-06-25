@@ -1,93 +1,176 @@
-# Frontend Mentor - Social links profile
+# 👨‍💻 Anik Das - Social Profile
 
-![Design preview for the Social links profile coding challenge](./design/desktop-preview.jpg)
+A modern, responsive social profile page showcasing Anik Das's professional information and social media links. Built with pure HTML, CSS, and modern design principles.
 
-## Welcome! 👋
+![Social Profile Preview](https://img.shields.io/badge/Status-Live-brightgreen)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-blue)
 
-Thanks for checking out this front-end coding challenge.
+## ✨ Features
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+- **Modern Glassmorphism Design** - Beautiful glass-like card with backdrop blur effects
+- **Animated Background** - Dynamic gradient background with floating particles
+- **Responsive Layout** - Optimized for all device sizes
+- **Interactive Elements** - Hover effects and smooth transitions
+- **Professional Links** - Direct access to portfolio, GitHub, LinkedIn, and more
+- **WhatsApp Integration** - Click profile image to connect via WhatsApp
+- **Modern Typography** - Clean Inter font for optimal readability
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## 🚀 Live Demo
 
-## The challenge
+Visit the live profile: [Anik Das Social Profile](https://your-deployment-url.com)
 
-Your challenge is to build out this social links profile and get it looking as close to the design as possible.
+## 🛠️ Technologies Used
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+- **HTML5** - Semantic markup and structure
+- **CSS3** - Modern styling with advanced features:
+  - CSS Grid & Flexbox
+  - Backdrop filters
+  - CSS animations and transitions
+  - Custom properties (CSS variables)
+- **Font Awesome** - Professional icons
+- **Google Fonts** - Inter font family
+- **Responsive Design** - Mobile-first approach
 
-Your users should be able to: 
+## 📁 Project Structure
 
-- See hover and focus states for all interactive elements on the page
+```
+Social-profile/
+├── index.html          # Main HTML file
+├── style.css           # CSS styles
+├── README.md           # Project documentation
+└── assets/
+    └── images/
+        ├── Pic.jpg     # Profile image
+        └── pic2.png    # Alternative profile image
+```
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+## 🎨 Design Features
 
-## Where to find everything
+### Visual Elements
+- **Glassmorphism Card** - Semi-transparent background with blur effects
+- **Gradient Background** - Multi-color animated gradient
+- **Profile Image** - Circular image with rotating gradient border
+- **Interactive Buttons** - Hover effects with color transitions
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+### Animations
+- Floating background particles
+- Rotating gradient border around profile image
+- Smooth hover transitions
+- Card lift effect on hover
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+## 📱 Responsive Design
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+The profile is fully responsive and optimized for:
+- Desktop computers (1200px+)
+- Tablets (768px - 1199px)
+- Mobile devices (320px - 767px)
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+## 🚀 Getting Started
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+### Prerequisites
+- A modern web browser
+- Basic knowledge of HTML/CSS (for customization)
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+### Installation
 
-## Building your project
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/social-profile.git
+   cd social-profile
+   ```
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+2. **Open in browser**
+   ```bash
+   # Simply open index.html in your browser
+   # Or use a local server:
+   python -m http.server 8000
+   # Then visit http://localhost:8000
+   ```
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+3. **Customize for your use**
+   - Replace profile images in `assets/images/`
+   - Update personal information in `index.html`
+   - Modify social media links
+   - Customize colors in `style.css`
 
-## Deploying your project
+## 🎯 Customization Guide
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+### Changing Personal Information
+Edit the following section in `index.html`:
+```html
+<div class="text">
+  <h2>Your Name</h2>
+  <h4>Your Location</h4>
+  <p>Your Title</p>
+</div>
+```
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+### Updating Social Links
+Replace the href attributes in the buttons section:
+```html
+<a href="your-portfolio-url" target="_blank" rel="noopener noreferrer">
+  <button class="button">
+    <i class="fa-solid fa-code"></i>
+    Portfolio
+  </button>
+</a>
+```
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+### Customizing Colors
+Modify CSS custom properties in `style.css`:
+```css
+:root {
+  --primary-color: #3b82f6;
+  --secondary-color: #8b5cf6;
+  --accent-color: #ec4899;
+}
+```
 
-## Create a custom `README.md`
+## 📸 Screenshots
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+### Desktop View
+![Desktop Preview](assets/images/desktop-preview.png)
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+### Mobile View
+![Mobile Preview](assets/images/mobile-preview.png)
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+## 🔗 Social Links
 
-## Submitting your solution
+- **Portfolio**: [anikkdass.vercel.app](https://anikkdass.vercel.app/)
+- **GitHub**: [@coderanik](https://github.com/coderanik)
+- **LinkedIn**: [anikdas21](https://www.linkedin.com/in/anikdas21/)
+- **Instagram**: [@anikk.dass](https://www.instagram.com/anikk.dass/)
+- **Resume**: [Download PDF](https://drive.google.com/file/d/1XcLl9MaVmhDUj_m60bf2IXcCH-32thWO/view?usp=sharing)
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+## 🤝 Contributing
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Sharing your solution
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-There are multiple places you can share your solution:
+## 📄 License
 
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+## 🙏 Acknowledgments
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+- **Font Awesome** for the beautiful icons
+- **Google Fonts** for the Inter font family
+- **CSS-Tricks** for glassmorphism inspiration
+- **Unsplash** for stock images (if used)
 
-## Got feedback for us?
+## 📞 Contact
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+Anik Das - [@anikk.dass](https://www.instagram.com/anikk.dass/)
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+Project Link: [https://github.com/yourusername/social-profile](https://github.com/yourusername/social-profile)
 
-**Have fun building!** 🚀
+---
+
+⭐ If you found this project helpful, please give it a star!
